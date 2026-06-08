@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, sans-serif; @apply text-gray-900 antialiased; }
+h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; letter-spacing: -0.02em; }
+
+:root {
+  --brand: #000000;
+  --brand-dark: #111111;
+  --brand-light: #f5f5f5;
+}
